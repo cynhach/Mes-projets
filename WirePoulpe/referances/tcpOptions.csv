@@ -1,0 +1,38 @@
+Kind,Length,Meaning
+0,-,End of Option List
+1,-,No-Operation
+2,4,Maximum Segment Size
+3,3,Window Scale
+4,2,SACK Permitted
+5,N,SACK
+6,6,Echo (obsoleted by option 8)
+7,6,Echo Reply (obsoleted by option 8)
+8,10,Timestamps
+9,2,Partial Order Connection Permitted (obsolete)
+10,3,Partial Order Service Profile (obsolete)
+11,-,CC (obsolete)
+12,-,CC.NEW (obsolete)
+13,-,CC.ECHO (obsolete)
+14,3,TCP Alternate Checksum Request (obsolete)
+15,N,TCP Alternate Checksum Data (obsolete)
+16,-,Skeeter
+17,-,Bubba
+18,3,Trailer Checksum Option
+19,18,MD5 Signature Option (obsoleted by option 29)
+20,-,SCPS Capabilities
+21,-,Selective Negative Acknowledgements
+22,-,Record Boundaries
+23,-,Corruption experienced
+24,-,SNAP
+25,-,Unassigned (released 2000-12-18)
+26,-,TCP Compression Filter
+27,8,Quick-Start Response
+28,4,"User Timeout Option (also, other known unauthorized use) [***][1]"
+29,-,TCP Authentication Option (TCP-AO)
+30,N,Multipath TCP (MPTCP)
+34,variable,TCP Fast Open Cookie
+69,N,Encryption Negotiation (TCP-ENO)
+172,N,"Accurate ECN Order 0 (AccECN0) (TEMPORARY - registered 2022-08-03, expires 2023-08-03)"
+174,N,"Accurate ECN Order 1 (AccECN1) (TEMPORARY - registered 2022-08-03, expires 2023-08-03)"
+253,N,RFC3692-style Experiment 1 (also improperly used for shipping products) [*]
+254,N,RFC3692-style Experiment 2 (also improperly used for shipping products) [*]
