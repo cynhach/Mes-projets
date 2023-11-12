@@ -32,4 +32,4 @@ Le projet se décompose en différentes parties, chacune traitant des aspects sp
 
 Chaque partie détaille les fichiers, structures et fonctions utilisés pour résoudre les défis propres aux processus électoraux, garantissant ainsi une conception claire et efficace. L'approche considère l'organisation d'un processus électoral par scrutin uninominal majoritaire à deux tours, similaire à celui en vigueur en France.
 
-Lancer la commande sur un terminal : make
+Lancer la commande `make` sur un terminal
